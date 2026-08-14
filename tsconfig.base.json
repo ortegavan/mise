@@ -16,9 +16,7 @@
         "paths": {
             "@mise/shared/*": ["./libs/shared/*"],
             "@mise/plataforma/*": ["./libs/plataforma/*"],
-            "@mise/receita/*": ["./libs/receita/*"],
-            "@mise/compras/*": ["./libs/compras/*"],
-            "@mise/auth/*": ["./libs/auth/*"]
+            "@mise/receita/*": ["./libs/receita/*"]
         }
     }
 }
