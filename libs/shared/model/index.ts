@@ -9,3 +9,4 @@ export type {
     Receita,
 } from './receita';
 export type { Permissao, Usuario } from './usuario';
+export type { Operacao, Confianca, Adaptacao } from './adaptacao';
