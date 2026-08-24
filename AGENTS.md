@@ -16,7 +16,7 @@ libs/<dominio>/{domain-logic,data,feature-_,ui-_}
 
 O Sheriff verifica as fronteiras. Se o lint reclamar de dependência, a solução NUNCA é adicionar exceção no sheriff.config.ts. É mover o código ou subir pro shared. Pergunte antes de editar a config.
 
-domain-logic é TypeScript puro. Sem @angular/\*, sem rxjs, sem classe, sem inject(). Regra de negócio recebe o usuário como parâmetro, ela não consulta a sessão.
+domain-logic é TypeScript puro. Sem Angular, sem rxjs, sem classe, sem inject(). Regra de negócio recebe o usuário como parâmetro, ela não consulta a sessão.
 
 ## Estilo
 
